@@ -9,7 +9,13 @@ def spin_chamber():
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 def fire_gun():
 	# ✅ ↓ your code here ↓ ✅
-	return None
+	bullet = spin_chamber()
+	for i in range(0,5):
+		if i == bullet:
+			return "DIED"
+		else:
+			print("Still alive") 
+	return "END"	
 
 
 print(fire_gun())
