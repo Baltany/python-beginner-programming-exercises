@@ -4,6 +4,7 @@ def get_color(color_number=4):
     # Making sure is a number and not a string
     color_number = int(color_number)
 
+# Elige un color aleatorio
     switcher = {
                   0:'red',
                   1:'yellow',
